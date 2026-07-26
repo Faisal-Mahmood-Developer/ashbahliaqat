@@ -30,7 +30,7 @@ const HeroSection = () => {
           </p>
 
           <p className="fade-in-up fade-in-up-delay-3 text-base sm:text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
-            Dedicated to patient care, rehabilitation, and evidence-based clinical practice. 
+            Dedicated to patient care, rehabilitation, and evidence-based clinical practice.
             Committed to making a meaningful difference in people's lives through compassionate healthcare.
           </p>
 
@@ -48,20 +48,16 @@ const HeroSection = () => {
                 Send Email
               </a>
             </Button>
-            <Button variant="outline" size="lg">
-              <Download size={18} />
-              Download CV
-            </Button>
+            <a href="/Ashbah-Liaqat-CV.pdf" download>
+              <Button variant="outline" size="lg">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-pulse-soft">
-        <div className="w-6 h-10 rounded-full border-2 border-primary/30 flex justify-center pt-2">
-          <div className="w-1.5 h-3 bg-primary/50 rounded-full animate-float" />
-        </div>
-      </div>
     </section>
   );
 };
