@@ -17,7 +17,7 @@ const HeroSection = () => {
           {/* Location badge */}
           <div className="fade-in-up inline-flex items-center gap-2 px-4 py-2 bg-card rounded-full shadow-soft text-sm text-muted-foreground mb-8">
             <MapPin size={16} className="text-primary" />
-            <span>Islamabad, Pakistan</span>
+            <span>Lahore, Pakistan</span>
           </div>
 
           {/* Main heading */}

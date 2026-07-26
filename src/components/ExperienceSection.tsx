@@ -4,7 +4,7 @@ const experiences = [
   {
     title: "House Officer",
     organization: "Benazir Bhutto Hospital, Rawalpindi",
-    period: "May 2025 – Present",
+    period: "July 2025 – July 2026",
     type: "Clinical Training",
     description:
       "Comprehensive clinical rotations gaining hands-on experience in various medical departments.",
@@ -15,6 +15,28 @@ const experiences = [
       "Providing patient education and follow-up care",
     ],
     rotations: ["Medicine", "Surgery", "Pediatrics", "Gynecology"],
+  },
+  {
+    title: "Physical Therapy Internee",
+    organization: "DHQ Hospital, Lodhran",
+    period: "June 2024 – August 2024", // Update with actual dates
+    type: "Clinical Internship",
+    description:
+      "Completed a clinical internship, gaining practical experience in patient assessment, rehabilitation, and multidisciplinary healthcare settings.",
+    responsibilities: [
+      "Assisted senior physical therapists in patient assessment and treatment planning",
+      "Performed exercise therapy and electrotherapy under supervision",
+      "Maintained patient records and treatment documentation",
+      "Educated patients on home exercise programs and rehabilitation techniques",
+      "Collaborated with healthcare professionals to deliver quality patient care",
+    ],
+    rotations: [
+      "Orthopedics",
+      "Neurology",
+      "Medicine",
+      "Surgery",
+      "Outpatient Department (OPD)",
+    ],
   },
   {
     title: "Teaching & Administrative Roles",
